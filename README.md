@@ -24,12 +24,12 @@ Match 3 or more candies to clear them from the board.
 ## Features :-
 - Single level
 - Score tracking
-- Lives system
 - High score leaderboard
 
 ## Screenshots :-
 - Gameplay Screenshot
 ![image](https://user-images.githubusercontent.com/126712293/230462673-a1cf5859-72e7-40b7-b27f-fabefd94873c.png)
+
 
 
 
