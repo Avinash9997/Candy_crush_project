@@ -29,10 +29,10 @@ Match 3 or more candies to clear them from the board.
 
 ## Screenshots :-
 - Gameplay Screenshot
-- 1) ![image](https://user-images.githubusercontent.com/126712293/230462673-a1cf5859-72e7-40b7-b27f-fabefd94873c.png)
+![image](https://user-images.githubusercontent.com/126712293/230462673-a1cf5859-72e7-40b7-b27f-fabefd94873c.png)
 
 
 
 
-Contributions
+Contributions :-
 Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request.
