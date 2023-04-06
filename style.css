@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+body {
+    background: url("background\ img\ 2.jpg") no-repeat center center fixed; 
+    background-size: cover;
+    font-family: 'Alkatra', cursive;
+    color: white;
+    text-align: center;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leaderboard{
+    padding-left: 150px;
+}
+#song{
+    opacity: 0.0;
+}
+#span, h1{
+    color:#fff;
+    background-color:none;
+    /* opacity:  */
+    font-weight: bold;
+    font-size: 40px;   
+}
+.game-controls{
+    padding: 25px 25px;
+}
+.game-score{
+    padding-top: 5px;
+}
+#board {
+    width: 600px;
+    height: 600px;
+    background-color:#F0EB8D;
+    border: 5px solid slategray;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#board img {
+    width: 65px;
+    height: 65px;
+}
+.leaderboard h2{
+    text-shadow: 1px 1px 2px black, 0 0 1em #0000ff, 0 0 0.2em blue;
+    font-family: 'Alkatra', cursive;
+    text-decoration: underline;
+    font-weight: 300;
+}
+button{
+    height: 40px;
+    width: 120px;
+    border-radius: 40px;
+    font-size: 15px;
+}
+button:hover{
+    border-color: whitesmoke;
+    background-color: #19376D;
+    color: whitesmoke;
+    font-size: medium;
+}
