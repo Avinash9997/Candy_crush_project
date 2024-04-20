@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Avinash Ghanghav">
     <title>Candy Crush</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="candycrash icon" type="image/x-icon" />
@@ -12,29 +13,27 @@
       <source src="Candy Crush Soda.mp3" type="audio/mp3" />
     </audio>
     <div class="container">
-      <div class="right">
+      <div class="game-area">
         <div class="game-controls">
-          <div class="game-timer" id="game-timer">
-            Time left: <span id="timer"></span>
-          </div>
-          <div class="game-score" id="game-score">
-            Score: <span id="score"></span>
-          </div>
+          <div class="game-timer" id="game-timer">Time left: <span id="timer"></span></div>
+          <div class="game-score" id="game-score">Score: <span id="score"></span></div>
         </div>
         <div id="board"></div>
       </div>
-      <div class="leaderboard">
-        <div id="game-over" style="display: none">
-          <h2>Game Over</h2>
-          <p>Your final score is: <span id="final-score"></span></p>
-          <button id="reset-button">Reset Game</button>
+      <div class="leaderboard-container">
+        <div class="leaderboard">
+          <div id="game-over" style="display: none">
+            <h2>Game Over</h2>
+            <p>Your final score is: <span id="final-score"></span></p>
+            <button id="reset-button">Reset Game</button>
+          </div>
+          <h2>Leaderboard</h2>
+          <ol id="leaderboard-list">
+            <!-- List of high scores goes here -->
+          </ol>
         </div>
-        <h2>Leaderboard</h2>
-        <ol id="leaderboard-list">
-          <!-- List of high scores goes here -->
-        </ol>
       </div>
     </div>
     <script src="candy.js"></script>
-  </body>
+  </body>
 </html>
