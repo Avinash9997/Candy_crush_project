@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alkatra&display=swap");
 
 body {
-  background: url("background\ img\ 2.jpg") no-repeat center center fixed;
+  background: url("images/background\ img\ 2.jpg") no-repeat center center fixed;
   background-size: cover;
-  font-family: 'Alkatra', cursive;
+  font-family: "Alkatra", cursive;
   color: white;
   text-align: center;
   margin: 0;
@@ -35,10 +35,11 @@ body {
 }
 
 #song {
-  opacity: 0.0;
+  opacity: 0;
 }
 
-#span, h1 {
+#span,
+h1 {
   color: #fff;
   background-color: none;
   font-weight: bold;
@@ -58,7 +59,7 @@ body {
   max-width: 600px;
   height: auto;
   aspect-ratio: 1/1;
-  background-color: #F0EB8D;
+  background-color: #f0eb8d;
   border: 5px solid slategray;
   border-radius: 10px;
   margin: 0 auto;
@@ -74,7 +75,7 @@ body {
 
 .leaderboard h2 {
   text-shadow: 1px 1px 2px black, 0 0 1em #0000ff, 0 0 0.2em blue;
-  font-family: 'Alkatra', cursive;
+  font-family: "Alkatra", cursive;
   text-decoration: underline;
   font-weight: 300;
 }
@@ -88,7 +89,7 @@ button {
 
 button:hover {
   border-color: whitesmoke;
-  background-color: #19376D;
+  background-color: #19376d;
   color: whitesmoke;
   font-size: medium;
 }
